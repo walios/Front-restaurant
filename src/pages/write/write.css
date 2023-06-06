@@ -1,0 +1,98 @@
+body {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.write {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 90vw;
+  height: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.writeForm {
+  position: relative;
+  background-color: #212121;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.writeFormGroup {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  width: 70vw;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #424242;
+}
+
+.writeInput::placeholder {
+  color: #b3b3b3;
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+  box-shadow: 0 0 10px #00e5ff;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #424242;
+}
+
+.writeSubmit {
+  margin-top: 20px;
+  color: white;
+  background-color: #009688;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.writeTitle {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}

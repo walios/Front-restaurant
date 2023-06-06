@@ -1,0 +1,62 @@
+.top {
+  width: 100%;
+  height: 60px; /* Adjusted height for a thicker navbar */
+  background-color: #222;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.topLeft,
+.topRight {
+  flex: 1; /* Increased the flex value for more spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topIcon {
+  font-size: 24px; /* Increased font size */
+  margin-right: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 2; /* Decreased the flex value for more spacing */
+  display: flex;
+  justify-content: center;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  color: #fff;
+}
+
+.topListItem:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
